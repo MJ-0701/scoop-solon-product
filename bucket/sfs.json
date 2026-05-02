@@ -1,13 +1,13 @@
 {
-  "version": "0.5.62-product",
+  "version": "0.5.63-product",
   "description": "Solon Product SFS runtime for AI-native product work",
   "homepage": "https://github.com/MJ-0701/solon-product",
   "license": "Proprietary",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/MJ-0701/solon-product/archive/refs/tags/v0.5.62-product.zip",
-      "hash": "9e3295cd9518701f55b81862ff3f8fba42766de81b298b5c191ea1cddd206813",
-      "extract_dir": "solon-product-0.5.62-product"
+      "url": "https://github.com/MJ-0701/solon-product/archive/refs/tags/v0.5.63-product.zip",
+      "hash": "69d220a8693f5f6cca19e51286d7836aca1a51b288a4e1cb1fc9fd9170a7e00f",
+      "extract_dir": "solon-product-0.5.63-product"
     }
   },
   "bin": [
@@ -30,6 +30,7 @@
   },
   "notes": [
     "Solon SFS on Windows requires Git for Windows/Git Bash. If bash.exe is not on PATH, set SFS_BASH to the full bash.exe path.",
-    "First-time project setup: cd <project>; git init; sfs init --layout thin --yes; sfs status; sfs agent install all."
+    "First-time project setup: cd <project>; git init; sfs init --layout thin --yes; sfs status; sfs agent install all.",
+    "Beginner guide: https://github.com/MJ-0701/solon-product/blob/main/BEGINNER-GUIDE.md"
   ]
 }
