@@ -1,13 +1,13 @@
 {
-  "version": "0.5.92-product",
+  "version": "0.5.93-product",
   "description": "Solon Product SFS runtime for AI-native product work",
   "homepage": "https://github.com/MJ-0701/solon-product",
   "license": "Proprietary",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/MJ-0701/solon-product/archive/refs/tags/v0.5.92-product.zip",
-      "hash": "2877b136009f3c291e562cc9d618fcc29e898c3fcfb3f0386fe30e688e5f0c0a",
-      "extract_dir": "solon-product-0.5.92-product"
+      "url": "https://github.com/MJ-0701/solon-product/archive/refs/tags/v0.5.93-product.zip",
+      "hash": "0f0e3adb49a5c5208b39996e97484d3a431d608177f388aaa92f635623d73fd6",
+      "extract_dir": "solon-product-0.5.93-product"
     }
   },
   "bin": [
@@ -15,6 +15,9 @@
       "bin\\sfs.cmd",
       "sfs"
     ]
+  ],
+  "post_install": [
+    "& (Join-Path $dir 'bin\\sfs-scoop-post-install.ps1')"
   ],
   "checkver": {
     "github": "https://github.com/MJ-0701/solon-product",
