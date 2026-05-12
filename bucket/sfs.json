@@ -1,13 +1,13 @@
 {
-  "version": "0.6.83",
+  "version": "0.6.84",
   "description": "Solon Product SFS runtime for AI-native product work",
   "homepage": "https://github.com/MJ-0701/solon-product",
   "license": "Proprietary",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/MJ-0701/solon-product/archive/refs/tags/v0.6.83.zip",
-      "hash": "aca4a0dad393c30db84f8732ac8a5b007e679047b9f481065c5230b7a7fafc83",
-      "extract_dir": "solon-product-0.6.83"
+      "url": "https://github.com/MJ-0701/solon-product/archive/refs/tags/v0.6.84.zip",
+      "hash": "0910d9574fd649761ac67218469443629536f7202b94001f7e6b714c4b2798fa",
+      "extract_dir": "solon-product-0.6.84"
     }
   },
   "bin": [
